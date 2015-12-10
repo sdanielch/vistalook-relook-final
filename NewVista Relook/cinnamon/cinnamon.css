@@ -1513,11 +1513,13 @@ StScrollBar StButton#vhandle:hover
 }
 
 .menu-application-button {
-    padding-top: 7px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px; 
-    max-width: 10px;   
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px; 
+    max-width: 10px; 
+         border: 1px solid rgba(0,0,0,0.0);
+
 }
 
 .menu-application-button:highlighted {
@@ -1526,16 +1528,13 @@ StScrollBar StButton#vhandle:hover
 }
 
 .menu-application-button-selected {
-    padding-top: 7px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px;
-    color: white;
-	background-gradient-direction: vertical;
-    background-gradient-start: rgba(90,90,90,0.5);
-    background-gradient-end: rgba(70,70,70,0.5);
-    box-shadow: inset 0px 0px 1px 1px rgba(120,120,120,1);
-    border-radius: 4px;
+ padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px; 
+    background: #3465a4;
+     color: #FFF;
+     border: 1px solid rgba(0,0,0,0.5);
 }
 
 .menu-application-button-selected:highlighted {
@@ -1552,33 +1551,74 @@ StScrollBar StButton#vhandle:hover
 }
 
 .menu-category-button {
-    padding-top: 7px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+         border: 1px solid rgba(0,0,0,0.0);
+
+}
+
+.menu-category-button:first-child {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    border: 1px solid rgba(0,0,0,0.0);
+    background: transparent !important;
+    color:#181818;
+    border-bottom: 2px #000000 solid;
+
+}
+.menu-category-button-selected:first-child {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    border: 1px solid rgba(0,0,0,0.0);
+    background: transparent !important;
+    color:#181818;
+    border-bottom: 2px #000000 solid;
+    font-weight: bold;
+
 }
 
 .menu-category-button-greyed {
-    padding-top: 7px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px; 
-    color: rgba(100,100,100,1);
-    font-style: italic;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px; 
+    background: transparent;
+     color: #525252;
+     border: 1px solid rgba(0,0,0,0.0);
 }
 
-.menu-category-button-selected {
-    padding-top: 7px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px; 
-    color: white;
-	background-gradient-direction: vertical;
-	background-gradient-start: rgba(90,90,90,0.5);
-	background-gradient-end: rgba(70,70,70,0.5);
-	box-shadow: inset 0px 0px 1px 1px rgba(120,120,120,1);
-    border-radius: 4px;
+.menu-category-button-greyed:first-child {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px; 
+    background: transparent;
+     color: #525252;
+     border: 1px solid rgba(0,0,0,0.0);
 }
+
+
+/* ABCABC*/
+.menu-category-button-selected {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px; 
+    background: #3465a4;
+     color: #FFF;
+     border: 1px solid rgba(0,0,0,0.5);
+
+}
+
+
+
+
 
 .menu-category-button-label:ltr { 
     padding-left: 5px       
@@ -2185,7 +2225,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 /* Zona del Menu !!*/
-.menu-applet-panel-bottom-box {
+.menu-applet-panel-bottom-box, .applet-box:first-child {
 background: transparent url(WindowsStartOrb.png) left center, rgba(255,255,255, 0.0);
 background-position: left center !important;
 border-radius: 25px;
@@ -2194,7 +2234,7 @@ width: 42px !important;
 box-shadow: 0 0 0 #39f;
 }
 
-.menu-applet-panel-bottom-box:hover {
+.menu-applet-panel-bottom-box:hover, .applet-box:first-child:hover {
 background: transparent url(WindowsStartOrb.png) left center, rgba(255,255,255, 0.0);
 background-position: left center !important;
 border-radius: 25px;
@@ -2204,7 +2244,7 @@ box-shadow: 0 0 8px #FFF;
 
 }
 
-.menu-applet-panel-bottom-box:active {
+.menu-applet-panel-bottom-box:active, .applet-box:first-child:active {
 background: transparent url(WindowsStartOrb.png) left center, rgba(255,255,255, 0.0);
 background-position: left center !important;
 border-radius: 25px;
@@ -2222,4 +2262,39 @@ box-shadow: 0 0 8px #323232;
     bottom: 0 !important;
     border: 1px #484848 solid;
     border-radius: 1px;
+}
+
+
+/* MENU ORIGINAL DE CINNAMON TWEAKS */
+.menu-applications-inner-box {
+    background: #FFF;
+    height: 100%;
+    margin-top: 10px !important;
+    border-radius: 0 0 10px 0;
+    color: #181818;
+}
+.menu-categories-box:first-child {
+        background: #FFF;
+    color: #181818;
+        border-radius: 0 0 0 10px;
+
+
+}
+.menu-search-box {
+	position: fixed !important;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100% !important;
+    background: #FFF;
+    border-radius: 10px 10px 0 0;
+    display: none !important;
+    padding: 20px;
+    text-align: center;
+    float: right;
+}
+
+.menu-favorites-box {
+	background: transparent;
 }
