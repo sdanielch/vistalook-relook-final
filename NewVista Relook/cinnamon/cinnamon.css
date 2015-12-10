@@ -2225,7 +2225,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 /* Zona del Menu !!*/
-.menu-applet-panel-bottom-box, .applet-box:first-child {
+#panelLeft .applet-box:first-child {
 background: transparent url(WindowsStartOrb.png) left center, rgba(255,255,255, 0.0);
 background-position: left center !important;
 border-radius: 25px;
@@ -2234,7 +2234,7 @@ width: 42px !important;
 box-shadow: 0 0 0 #39f;
 }
 
-.menu-applet-panel-bottom-box:hover, .applet-box:first-child:hover {
+#panelLeft .applet-box:first-child:hover {
 background: transparent url(WindowsStartOrb.png) left center, rgba(255,255,255, 0.0);
 background-position: left center !important;
 border-radius: 25px;
@@ -2244,7 +2244,7 @@ box-shadow: 0 0 8px #FFF;
 
 }
 
-.menu-applet-panel-bottom-box:active, .applet-box:first-child:active {
+#panelLeft .applet-box:first-child:active {
 background: transparent url(WindowsStartOrb.png) left center, rgba(255,255,255, 0.0);
 background-position: left center !important;
 border-radius: 25px;
@@ -2297,4 +2297,5 @@ box-shadow: 0 0 8px #323232;
 
 .menu-favorites-box {
 	background: transparent;
+border: 1px transparent solid;
 }
