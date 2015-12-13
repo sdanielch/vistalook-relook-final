@@ -1573,7 +1573,6 @@ animation: myfirst 300ms;
     background: transparent !important;
     color:#181818;
     border-bottom: 2px #000000 solid;
-
 }
 .menu-category-button-selected:first-child {
     padding-top: 5px;
@@ -1608,7 +1607,6 @@ animation: myfirst 300ms;
      border: 1px solid rgba(0,0,0,0.0);
 }
 
-
 /* ABCABC*/
 .menu-category-button-selected {
     padding-top: 5px;
@@ -1616,9 +1614,8 @@ animation: myfirst 300ms;
     padding-right: 5px;
     padding-bottom: 5px; 
     background: #3465a4;
-     color: #FFF;
-     border: 1px solid rgba(0,0,0,0.5);
-
+    color: #FFF;
+    border: 1px solid rgba(0,0,0,0.5);
 }
 
 
@@ -1718,7 +1715,7 @@ animation: myfirst 300ms;
 
 .window-list-box {
     spacing: 3px;   
-    padding-top: 1px;   
+    padding-top: 1px;  
 }
 
 .window-list-item-label {
@@ -1729,15 +1726,10 @@ animation: myfirst 300ms;
 
 .window-list-item-box {
     color: rgba(255,255,255,1.0);
-	/*background-gradient-direction: vertical;
-	background-gradient-start: rgba(100,100,100,0.5);
-	background-gradient-end: rgba(50,50,50,0.5);
-	box-shadow: inset 0px 0px 0px 1px rgba(80,80,80,0.5);
-    border-radius: 4px 4px 0px 0px;*/
     padding: 1px;
-    padding-left: 5px;
+    padding-left: 35px;
     padding-right: 5px;
-    transition-duration: 50;
+    transition-duration: 200;
     border-image:url("A.png");
 }
 
@@ -1761,7 +1753,6 @@ animation: myfirst 300ms;
 .window-list-item-demands-attention {
          border-image:url("B.png");
 }
-
 /* ===================================================================
  * Sound Applet (status/volume.js)
  * ===================================================================*/
@@ -2257,10 +2248,9 @@ box-shadow: 0 0 8px #323232;
 
 
 #notification {
-	 background-gradient-direction: vertical;
+    background-gradient-direction: vertical;
     background-gradient-start: rgba(40, 40, 40, 0.9) !important;
     background-gradient-end: rgba(10, 10, 10, 0.9) !important;
-    position: absolute;
     top: auto !important;
     bottom: 0 !important;
     border: 1px #484848 solid;
@@ -2277,19 +2267,11 @@ box-shadow: 0 0 8px #323232;
     color: #181818;
 }
 .menu-categories-box:first-child {
-        background: #FFF;
+    background: #FFF;
     color: #181818;
-        border-radius: 0 0 0 10px;
-
-
+    border-radius: 0 0 0 10px;
 }
 .menu-search-box {
-	position: fixed !important;
-    top: auto;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100% !important;
     background: #FFF;
     border-radius: 10px 10px 0 0;
     display: none !important;
@@ -2299,6 +2281,6 @@ box-shadow: 0 0 8px #323232;
 }
 
 .menu-favorites-box {
-	background: transparent;
+background: transparent;
 border: 1px transparent solid;
 }
