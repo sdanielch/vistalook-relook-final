@@ -1751,7 +1751,7 @@ animation: myfirst 300ms;
 }
 
 .window-list-item-demands-attention {
-         border-image:url("B.png");
+         border-image:url("AT.png");
 }
 /* ===================================================================
  * Sound Applet (status/volume.js)
