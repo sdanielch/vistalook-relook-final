@@ -1977,6 +1977,9 @@ animation: myfirst 300ms;
     color: #ccc;
     text-shadow: black 0px 0px 2px;
 }
+#panelRight .applet-box {
+font-size: 16px !important; 
+}
 .applet-box:hover {
     color: #fff;
 }
