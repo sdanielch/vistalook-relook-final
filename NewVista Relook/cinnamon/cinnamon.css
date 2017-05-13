@@ -1678,6 +1678,7 @@ box-shadow: inset 0 0 20px #000;
 .menu-search-box {
    padding-left: 3px;
    border: 1px #DEDEDE solid;
+	width: 250px;
   /* box-shadow: inset 0px 0px 40px 20px #323232;*/
 }
 /* BUSQUEDA */
@@ -1689,7 +1690,7 @@ box-shadow: inset 0 0 20px #000;
     selected-color: black;
     caret-color: rgb(160, 160, 160);
     caret-size: 1px;
-    width: 520px;
+    width: 250px;
     transition-duration: 300;
     margin: 0px !important;
 }
